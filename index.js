@@ -17,3 +17,18 @@ function johnLennonFacts(array){
     }
     return newarray;
 }
+
+function iLoveTheBeatles(number){
+    let brandnewarray=[];
+    function numbercheck(number){
+	if(number-1<15){
+		return number;}
+	else{
+		number = 16;
+    }}
+    do{
+        brandnewarray.push("I love the Beatles!")
+        number=number+1;
+        }while (numbercheck(number)<15);
+return brandnewarray;
+}
